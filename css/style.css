@@ -1,0 +1,233 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.section-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* NAWIGACJA */
+
+.main-nav {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+
+.main-nav ul li a {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #582782;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.hero {
+    background-image: linear-gradient(45deg, #fe6b83 0%, #9326f0 100%);
+    height: 445px;
+    position: relative;
+    
+}
+
+.hero .nav-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.hero .nav-text h1 {
+    font-size: 11.6rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.hero .nav-text p {
+    font-size: 2.1rem; 
+}
+
+.hero .img-1 {
+    position: absolute;
+    top: 300;
+    right: 0;
+    
+}
+
+.hero .img-2 {
+    position: absolute;
+    top: 400;
+    right: 0
+}
+
+/* PROJECTS */
+
+.number {
+    font-family: 'Montserrat', sans-serif;
+    color: #e579d7;
+    letter-spacing: 5px;
+    position: absolute;
+    top: -60;
+    left: 0;
+    right: 0;
+    font-size: 24.7rem;
+    z-index: -1;
+}
+
+.text-header {
+    margin-left: 80px;
+    font-size: 2.7rem;
+    color: #5f1b98;
+    font-weight: 700;
+    letter-spacing: 3.4px;
+    
+}
+
+.text {
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 2.4px;  
+}
+
+.picture-work {
+    margin-top: 50px;
+}
+
+.projects  .row:first-child {
+    margin-bottom: 60px;
+}
+
+.button {
+    margin-left: 80px;
+    border: 1px solid #c244c1;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #440c74;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: .4s;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #c244c1;
+}
+
+/* BANNER */
+
+.banner {
+    background: url(../img/fullbg.jpg) no-repeat top;
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.banner .banner-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7.3rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner img {
+    margin-top: 310px;
+}
+
+.projects-2 .text-header {
+    margin-left: 130px;
+}
+
+.projects-2 .text {
+    margin-left: 130px;
+}
+
+.projects-2 .button {
+    margin-left: 130px;
+}
+
+.projects-2 .picture-work {
+    float: right;
+}
+
+/* FOOTER */
+
+.contact {
+    background-image: linear-gradient(-50deg, #9326f0 0%, #ff7fc4 100%);
+}
+
+.contact .contact-text {
+    font-size: 6.3rem;
+    color: #440c74;
+}
+
+.contact form {
+    float: right;
+    width: 450px;
+}
+
+.contact form label {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-bottom: 5px;  
+    color: #440c74;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.contact form input {
+    border: none;
+    border-bottom: 2px solid #440c74;
+    background: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact form textarea {
+    width: 100%;
+    height: 80px;
+    border: 2px solid #440c74;
+    background: none;
+    margin-top: 10px;
+}
+
+.contact .form-button {
+    margin-top: 30px;
+    margin-bottom: 0;
+    width: 170px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+
+
+
